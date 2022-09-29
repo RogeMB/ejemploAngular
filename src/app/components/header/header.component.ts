@@ -12,4 +12,6 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  //debugger; para determinar el punto de interrupción y empezar a debuggear.
+
 }
