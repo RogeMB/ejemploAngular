@@ -7,6 +7,7 @@ import { LoginComponent } from './components/login/login.component';
 import { SingupComponent } from './components/signup/signup.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MaterialImportsModule } from './modules/material-imports.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MaterialImportsModule } from './modules/material-imports.module';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MaterialImportsModule
+    MaterialImportsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
