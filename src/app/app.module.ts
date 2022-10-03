@@ -8,13 +8,16 @@ import { SingupComponent } from './components/signup/signup.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MaterialImportsModule } from './modules/material-imports.module';
 import { FormsModule } from '@angular/forms';
+import { ListaComponent } from './components/lista/lista.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     SingupComponent,
-    HeaderComponent
+    HeaderComponent,
+    ListaComponent
   ],
   imports: [
     BrowserModule,

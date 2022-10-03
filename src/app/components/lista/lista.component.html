@@ -1,0 +1,11 @@
+<mat-list>
+    <div mat-subheader>Folders</div>
+    <mat-list-item *ngFor="let Student of studentList">
+      <mat-icon>{{iconSelection() ? 'male' : 'female'}}</mat-icon>
+      <div mat-line> {{Student.id}}</div>
+      <div mat-line>{{Student.name}}, {{Student.surname}}</div>
+      <div mat-line>{{Student.gender}}</div>
+      <div mat-line>{{Student.age | number}} </div>
+      <div mat-list-icon *ngIf="(Student.age<18)">warning</div>
+    </mat-list-item>
+</mat-list>
