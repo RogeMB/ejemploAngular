@@ -13,7 +13,7 @@ export class ListaComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.studentList = this.studentList.sort((a, b) => a.surname.localeCompare(b.surnamee));
+    this.studentList = this.studentList.sort((a, b) => a.surname.localeCompare(b.surname));
   }
 
   iconSelection() {
