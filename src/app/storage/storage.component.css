@@ -1,0 +1,10 @@
+#form-save {
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgba(131, 131, 131, 0.801);
+}
+
+#redColor {
+    color: rgba(224, 2, 132, 0.938);
+    margin: 2px solid rgba(224, 2, 132, 0.938);
+}

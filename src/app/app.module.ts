@@ -9,6 +9,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { MaterialImportsModule } from './modules/material-imports.module';
 import { FormsModule } from '@angular/forms';
 import { ListaComponent } from './components/lista/lista.component';
+import { StorageComponent } from './storage/storage.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ListaComponent } from './components/lista/lista.component';
     LoginComponent,
     SingupComponent,
     HeaderComponent,
-    ListaComponent
+    ListaComponent,
+    StorageComponent
   ],
   imports: [
     BrowserModule,
